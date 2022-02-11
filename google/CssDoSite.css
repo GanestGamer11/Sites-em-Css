@@ -1,0 +1,101 @@
+.meio{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	border: 1px solid transparent;
+	transform: translate(-50%, -50%);
+
+
+	width: 50%;
+	height: 60%;
+}
+
+.meio img{
+	display:block;
+	width: 40%;
+}
+
+.pesquisa{
+	width: 80%;
+	height: 35px;
+
+	margin-top: 25px;
+
+	border: 0.5px solid Darkgray;
+	border-radius: 20px;
+	box-shadow: 1px 1px black 40px;
+}
+.pesquisa input{
+	display: inline-block;
+	width: 88%;
+	height: 89%;
+	outline: none;
+
+	color: darkblack;
+
+
+	border: 1px solid transparent;
+}
+.meio button{
+	padding-top,bottom: 12px;
+	height: 35px;
+	width: 140px;
+	border: 1px solid transparent;
+	margin-top: 30px;
+	margin-right: 10px;
+
+	border-radius: 5px;
+	color: gray;
+	background-color: #f2f2f2;
+}
+.meio h5{
+	font-family: arial;
+	color: #353839;
+	font-size: 10pt;
+}
+
+.grid{
+	width: 2%;
+	display: inline;
+	margin-top: 2px;
+}
+.grid1{
+	margin-top: -2px;
+	width: 2%;
+	display: inline;
+}
+.texto{
+	position: relative;
+	left: 88%;
+	display: inline;
+	font-family: arial;
+	font-size: 10pt;
+	color: gray;
+}
+.a, .c{
+	font-size: 8pt;
+	font-family: arial;
+	display: inline-block;
+	padding: 4px;
+	color: gray;
+	margin-top: 1px;
+}
+.a{	
+	display: block;
+	border-bottom: 2px solid gray;
+}
+.b{
+	height: 20px;
+	display: inline-block;
+}
+.d{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+	width: 99.8%;
+	background-color: lightgray;
+	border: 1px solid gray;
+}
+
